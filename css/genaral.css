@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.nav2 {
+    box-shadow: 0 10px 20px -10px black;
+}
+
+footer {
+    background-color: #303030;
+    margin-top: 100px;
+}
+
+.footer .title {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.footer2 {
+    color: gainsboro;
+    font-size: 12px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer2 a:hover {
+    color: white;
+}
+
+.footer2 .mxh a {
+    display: block;
+    color: #2F90F2;
+}

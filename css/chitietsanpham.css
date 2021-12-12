@@ -1,0 +1,99 @@
+.div_breadcrumb {
+    background-color: #F5F5F5;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.fa-star {
+    font-size: 13px;
+}
+
+.like {
+    width: 78px;
+}
+
+.tensanpham {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.danhgia,
+.sosanh {
+    color: #0a58ca;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.giadagiam {
+    color: #d0021c;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.giachuagiam {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.phantramgiam {
+    color: #d0021c;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tinhtranghang {
+    color: #219653;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.muangay {
+    background-color: #FB6E2E;
+    color: white;
+}
+
+.mua .muatragop div {
+    font-size: 13px;
+}
+
+.muatragop .tragop {
+    font-size: 15px;
+}
+
+.goidatmua {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chinhsach i {
+    color: #6fa4e9;
+}
+
+.danhgia_binhluan span {
+    color: #0a58ca;
+}
+
+.danhgia_binhluan span:hover {
+    cursor: pointer;
+}
+
+.button_danhgia button {
+    width: 44%;
+    margin: 0 10px;
+}
+
+.modal .fa-times {
+    font-weight: 600;
+}
+
+.madal .fw-light {
+    font-weight: lighter;
+}

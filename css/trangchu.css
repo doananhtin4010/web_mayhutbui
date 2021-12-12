@@ -1,0 +1,201 @@
+#my_carousel {
+    height: 400px;
+}
+
+.carousel:hover .carousel-control-prev-icon,
+.carousel:hover .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel:hover .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel:hover .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel:hover .carousel-indicators .dots {
+    background-color: grey;
+}
+
+main .btn {
+    height: 33px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 10px;
+}
+
+main .button_dropdown,
+main .tienich,
+main .hang {
+    background-color: white;
+    border: none;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+main .hang img {
+    width: 70px;
+    height: 15px;
+}
+
+main .button_dropdown:hover,
+main .tienich:hover,
+main .hang:hover {
+    border: 1px solid #2f80ed;
+    color: #2f80ed;
+}
+
+.products .product {
+    width: 264px;
+    height: 532px;
+    overflow: hidden;
+}
+
+.product .img_product {
+    width: 261px;
+    height: 310px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.product .tensp {
+    height: 90px;
+}
+
+.product .small {
+    height: 21px;
+}
+
+.product .doyeuthich {
+    height: 24px;
+}
+
+.add_to_cart:hover,
+.love:hover,
+.sosanh:hover {
+    background-color: #DDDDDD;
+}
+
+.product:hover {
+    box-shadow: 5px 6px 20px -10px black;
+}
+
+.product:hover .img_product {
+    transform: scale(1.1);
+}
+
+.product .tensp {
+    color: #288ad6;
+}
+
+.product:hover .tensp {
+    color: #0a5691;
+}
+
+main .products a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    main .products .product {
+        width: 250px;
+        height: 514px;
+    }
+    .product .img_product {
+        width: 247px;
+        height: 296px;
+    }
+    .add_to_cart {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main .products .product {
+        width: 248px;
+        height: 514px;
+    }
+    .product .img_product {
+        width: 245px;
+        height: 296px;
+    }
+    .add_to_cart {
+        font-size: 14px;
+    }
+    .carousel:hover .carousel-control-prev-icon,
+    .carousel:hover .carousel-control-next-icon {
+        height: 80px;
+        width: 80px;
+    }
+    .carousel:hover .carousel-control-next-icon:after {
+        font-size: 45px;
+    }
+    .carousel:hover .carousel-control-prev-icon:after {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    main .products .product {
+        width: 400px;
+        height: 530px;
+    }
+    .product .img_product {
+        width: 250px;
+        height: 296px;
+    }
+    .add_to_cart {
+        font-size: 14px;
+    }
+    .carousel:hover .carousel-control-prev,
+    .carousel:hover .carousel-control-next {
+        display: none;
+    }
+    .btn-group .add_to_cart,
+    .btn-group .love,
+    .btn-group .sosanh {
+        padding: 10px 39px !important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    main .products .product {
+        width: 350px;
+        height: 521px;
+    }
+    .btn-group .add_to_cart,
+    .btn-group .love,
+    .btn-group .sosanh {
+        padding: 10px 30px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main .products .product {
+        width: 300px;
+    }
+    .btn-group .add_to_cart,
+    .btn-group .love,
+    .btn-group .sosanh {
+        padding: 10px 22px !important;
+    }
+}
