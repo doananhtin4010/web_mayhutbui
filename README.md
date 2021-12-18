@@ -13,3 +13,5 @@
 > 2. **Account login**
 > 3. **Add to cart**
 > 4. **Order**
+
+**Click to see demo:** [Product Demo](https://doananhtin4010.github.io/web_mayhutbui/html/trangchu.html)
