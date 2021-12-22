@@ -14,4 +14,11 @@
 > 3. **Add to cart**
 > 4. **Order**
 
+### Languages:
+HTML, CSS, Javascript
+### Frameworks:
+Bootstrap
+### Libraries:
+Jquery
+
 **Click to see demo:** [Product Demo](https://doananhtin4010.github.io/web_mayhutbui/html/trangchu.html)
