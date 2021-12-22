@@ -8,7 +8,7 @@
 > 2. **Product arrangements**
 > 3. **View product details**
 > 4. **Product reviews**
-## Uncreated functions:
+## Functions have not been created:
 > 1. **Register an account**
 > 2. **Account login**
 > 3. **Add to cart**
